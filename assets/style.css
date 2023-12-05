@@ -1,0 +1,15 @@
+header {
+    background-color: #00004D;
+    color:#F0E5D3;
+    height: 50px;
+}
+main {
+    background-color: #F0E5D3;
+    color: #00004D;
+    height: 700px;
+}
+footer {
+    background-color: #00004D;
+    color:#F0E5D3;
+    height: 50px;
+}
