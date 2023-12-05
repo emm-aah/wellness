@@ -1,0 +1,30 @@
+
+body {
+    font-family: 'Montserrat' sans-serif;
+}
+/* Header */
+header {
+    background-color: #D3D0C9;
+    color: #00004D;
+    height: 10vh;   
+}
+.id {
+    font-size: 180%;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+
+/* Main Content */
+main {
+    background-color: #F0E5D3;
+    color: #00004D;
+    height: 80vh;
+}
+
+/* Footer */
+footer {
+    background-color: #00004D;
+    color: #F0E5D3;
+    height: 10vh;
+}
