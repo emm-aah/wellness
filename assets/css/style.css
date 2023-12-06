@@ -1,14 +1,13 @@
 
 body {
     min-height: 100%;
-    color: navy;
     margin: 0;
 
 }
 
 /* Header */
 header {
-    background-color: #9ec2e6;
+    background-color: #043959;
     height: 10vh;
     position: fixed;
     left: 0;
@@ -22,13 +21,13 @@ header {
 
 header a {
     text-decoration: none;
-    color: navy;
+    color: #ffffff;
 }
 
    
 #logo {
     text-align: center;
-    font-size: 250%;
+    font-size: 200%;
    
 }
 
@@ -58,13 +57,13 @@ footer {
 }
 
 footer a {
-    font-size: 110%;
-    color: navy;
+    font-size: 120%;
+    color: #043959;
 
 }
 
 #footer-links {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 30px;
+    padding-top: 20px;
 }
