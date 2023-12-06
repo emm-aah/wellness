@@ -2,6 +2,7 @@
 body {
     min-height: 100%;
     color: navy;
+    margin: 0;
 
 }
 
@@ -15,6 +16,7 @@ header {
     width: 100%;
     z-index: 30;
     padding-top: 20px;
+    padding-bottom: 20px;
     
 }
 
@@ -56,7 +58,13 @@ footer {
 }
 
 footer a {
-    font-size: 200%;
+    font-size: 110%;
     color: navy;
 
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
 }
