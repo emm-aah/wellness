@@ -50,8 +50,21 @@ main {
     min-height: 80vh;
 }
 
+#homepage-boxes {
+    position: relative;
+    top: 10vh;
+    bottom: 10vh;
+    margin: 0 30px;
+}
+
 .nav-links-homepage {
-    background-color: rgba ( 4, 57, 89, 0.6);
+    background-color: rgb(4,57,89, 0.8);
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    display:block;
+    margin-bottom: 10px;
+   
 }
 
  
