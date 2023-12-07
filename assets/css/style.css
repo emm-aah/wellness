@@ -26,6 +26,7 @@ header {
 header a {
     text-decoration: none;
     color: #ffffff;
+    font-weight: 100;
 }
 
    
@@ -52,9 +53,13 @@ main {
 
 #homepage-boxes {
     position: relative;
-    top: 10vh;
+    top: 8vh;
     bottom: 10vh;
     margin: 0 30px;
+}
+
+#homepage-boxes a {
+    text-decoration: none;
 }
 
 .nav-links-homepage {
@@ -62,9 +67,9 @@ main {
     color: #ffffff;
     text-align: center;
     padding: 5px;
-    display:block;
     margin-bottom: 10px;
-   
+    display: block;
+
 }
 
  
@@ -89,3 +94,32 @@ footer a {
     justify-content: space-evenly;
     padding-top: 20px;
 }
+@media screen and (min-width: 992px) {
+    
+    header a {
+        font-size: larger;
+        font-stretch: extra-expanded;
+    }
+    
+    #homepage-boxes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .nav-links-homepage {
+        min-height: 180px;
+        margin: 100px 20px;
+        padding: 80px 50px;
+    }
+    
+    .nav-links-homepage h2 {
+        font-size: 200%;
+    }
+
+    .nav-links-homepage p {
+        font-size: 120%;
+    }
+
+    }
+
