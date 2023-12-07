@@ -5,8 +5,7 @@
 body {
     min-height: 100%;
     margin: 0;
-    font-family: 'Montserrat' sans-serif;
-
+    font-family: sans-serif;
 }
 
 /* Header */
@@ -38,7 +37,7 @@ header a {
 
 
 /* Main Content */
-main {
+#homepage {
     position: relative;
     min-height: 80vh;
     top: 10vh;
@@ -47,7 +46,7 @@ main {
 }
 
 #hero-image {
-    background: url(../images/pexels-pixabay-247421.jpg);
+    background: url(../images/pexels-pixabay-247421.jpg) no-repeat;
     min-height: 80vh;
 }
 
@@ -56,6 +55,10 @@ main {
     top: 8vh;
     bottom: 10vh;
     margin: 0 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
 }
 
 #homepage-boxes a {
@@ -68,7 +71,7 @@ main {
     text-align: center;
     padding: 5px;
     margin-bottom: 10px;
-    display: block;
+    font-size: 90%;
 
 }
 
@@ -94,32 +97,45 @@ footer a {
     justify-content: space-evenly;
     padding-top: 20px;
 }
-@media screen and (min-width: 992px) {
+
+/*CSS for screens over 768px*/
+@media screen and (min-width: 768px) {
+    
+    body {
+        letter-spacing: 2px;
+    }
     
     header a {
-        font-size: larger;
-        font-stretch: extra-expanded;
-    }
+            font-size: larger;
+            font-stretch: extra-expanded;
+            letter-spacing: 3px;
+        }
     
-    #homepage-boxes {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-    .nav-links-homepage {
-        min-height: 180px;
-        margin: 100px 20px;
-        padding: 80px 50px;
-    }
+        #homepage-boxes {
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            justify-content: space-evenly;
+        }
     
-    .nav-links-homepage h2 {
-        font-size: 200%;
-    }
+        .nav-links-homepage {
+            height: 275px;
+            width: 275px;
+            margin-top: 50px;
+            padding: 15px 30px;
+        }
+    
+        .nav-links-homepage h2 {
+            font-size: 200%;
+        }
+    
+        .nav-links-homepage p {
+            font-size: 100%;
+            font-style: normal;
+            padding-top: 20px;
+        }
+}
 
-    .nav-links-homepage p {
-        font-size: 120%;
-    }
 
-    }
+    
 
