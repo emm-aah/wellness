@@ -131,7 +131,7 @@ footer {
 }
 
 footer a {
-    font-size: 120%;
+    font-size: 105%;
     color: #043959;
 
 }
@@ -139,7 +139,7 @@ footer a {
 #footer-links {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /*CSS for screens over 768px*/
@@ -174,7 +174,7 @@ footer a {
         }
     
         .nav-links-homepage p {
-            font-size: 100%;
+            font-size: 105%;
             font-style: normal;
             padding-top: 30px;
         }
